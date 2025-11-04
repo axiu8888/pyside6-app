@@ -1,0 +1,21 @@
+{
+  "log": {
+    "level": "INFO",//日志等级: DEBUG/INFO/WARN/ERROR
+    "logFile": "",//输出的文件
+    //"logFile": "./trace.log",//输出的文件
+    "mqttLog": false //是否输出到mqtt，暂不起作用
+  },
+  "http": {
+    "baseUrl": "http://127.0.0.1/support/api",//地址
+    "username": "znsljcxtAdmin",
+    "password": "znsljcxtAdmin@1"
+  },
+  "mqtt": {//mqtt配置
+    "host": "127.0.0.1",
+    "port": 1883,
+    "topic": {
+       "publish": "/iot/collector/publish/",
+       "subscribe": "/iot/collector/subscribe/"
+    }
+  }
+}
