@@ -31,3 +31,10 @@ python install_service.py start
 
 ```
 
+
+## 参考
+```
+1、https://zhuanlan.zhihu.com/p/25708850388
+2、https://www.pythonguis.com/tutorials/pyside6-creating-your-first-window/
+```
+
